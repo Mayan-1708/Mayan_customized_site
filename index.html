@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayan Intermediate CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css\styles.css">
+    <link rel="icon" href="favicon.ico">    <!-- FOR FAVICONS WHICH ARE ICON
+                                           BESIDE THE TITLE ON A WEB PAGE -->
+</head>
+<body>
+    
+    <div class="top-container"> 
+        <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+<h1>I'm Mayan</h1>
+<h2> a <span class="pro">pro</span>grammer</h2>          <!-- Div are basicaaly used for content division. -->
+<img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">    
+<img src="images/mountain.png" alt="mountain-img">
+</div>
+
+<div class="middle-container">
+    <div class="profile">
+      <img class="pic" src="images/mayan linkedin profile.jpeg" alt="Mayan-profile-img">
+      <h2>Hello.</h2>
+      <p class="pic-text">I am Mayan Vajani,a enthusiastic web developer and a programmer.</p>
+    </div>
+    <hr class="hr1">
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="code-img" src="images/computer.png" alt="computer-img">
+        <h3>Computer Programming</h3>
+        <p class="code-text">I am passionate about learning about computers.I know C,C++ and still in the process of learning much more.</p>
+      </div>
+      <div class="skill-row">
+        <img class="chilli-img" src="images/chillies.png" alt="chillies-img">
+        <h3>Eating Spicy Food</h3>
+        <p class="chilli-text">I can eat the spiciest food on earth.I can even eat the JOLO chip which many are scared of.                                                                                                         
+        </p>
+      </div>
+    </div>
+    <hr class="hr2">
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>I am free to meet on Mondays and Fridays from 2-8pm.</h3>
+      <p>For any monetary deals or sponsorship contact me from this button given below </p>
+      <a class="btn" href="mailto:mayanvajani04@email.com">CONTACT ME</a>
+    </div>
+  </div>
+  
+  
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/mayan-vajani-428b3124a/">LinkedIn</a>
+    <a class="footer-link" href="https://www.instagram.com/mayanvajani/">Instagram</a>
+    <p>© 2024 Mayan Vajani.</p>
+  </div>
+  
+</body>
+</html>
+
+<!-- Display Properties:
+1.Block:  <p>            
+        headers
+        divisions(<div>)
+        list and list items
+        forms (<form>)   
+
+//These block any other element on the same line.
+
+2.Inline:<span>
+        <img>
+        <a>
+//takes only jitni space lagti hai.
+
+Note:we cant change width with inline elements
+hence we use block elements.
+we can change display in css for elements like 
+display:block or display:inline.
+
+
+3.Inline-Block: generally img are kind of inline-block.
+
+//for inline block we can change the width also.
+
+4.None: Shows as if the element is removes and it never existed.
+
+//for hiding things on web we can also use:-
+in css,visibility: hidden; But this makes things disappear
+but leaves its space around other elements.
+-->
+
+<!-- 
+Position:
+
+1.static
+2.relative- relative to how it had been by default in html ie static.
+          - div{position:relative; top:50px;} means move the div 50px from the previous top.ie in down direction.
+          -doesnt move layout of any other element on the screen.
+3.absolute-affects the flow of your html
+          -moves the element relative to its parent ie the body generally.
+ 4.fixed-used for navbar and all.
+-->
